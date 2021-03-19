@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #121F3D;
+    --secundary-color: #f1732b;
+}
+header .nav {
+    width: auto;
+}
+nav .nav-bar {
+    display: block;
+    list-style: none;
+}
+nav .nav-bar .nav-bar-item {
+    display: inline-block;
+}
+nav .nav-bar .nav-bar-item a {
+    display: block;
+    padding: .5rem 1rem;
+    transition: all linear .4s;
+}
+header .menu-icon {
+    display: none;
+}
+footer .footer-nosotros, .footer .footer-redes, .footer .footer-contacto {
+    display: inline-block;
+    width: 33.3%;
+}
+
+
+/* ---------------------- *//* CSS del Index.css *//* ---------------------- */
+
+.container-sections 
+{
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.about-container-text-1, .about-container-text-2
+{
+    border: .15rem solid rgb(173, 171, 171);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #f3f2f2;
+    box-shadow: 5px 6px 14px -3px rgba(125,121,125,1);
+}
+
+.about-container-text-1 h1, .about-container-text-2 h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-container-text-1 p, .about-container-text-2 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.about-container-media-1 img, .about-container-media-2 img
+{
+    width: 100%;
+    margin-bottom: 2rem;    
+    border-radius: 1rem;
+}
+
+.container-1, .container-2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-container-text-1, .about-container-media-1, .about-container-text-2, .about-container-media-2
+{
+    width: 45%;
+}
+
+.map
+{
+    width: 100%;
+    border-radius: 1rem;
+}
