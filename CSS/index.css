@@ -162,6 +162,7 @@ justify-content: space-evenly; media:tablet o desktop */
     padding: 1rem 0;
 }
 
+/* ABOUT */
 .about-container-text-1, .about-container-text-2
 {
     border: .15rem solid rgb(173, 171, 171);
@@ -199,15 +200,39 @@ justify-content: space-evenly; media:tablet o desktop */
     align-items: center;
 }
 
-.container-2
+.container  
 {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
 
-.map
+/* CONTACT */
+.map-sa, .map-sb
 {
     width: 100%;
     border-radius: 1rem;
+}
+
+.contact-sede-b > ul, .contact-sede-a > ul
+{
+    list-style: none;
+    text-align: center;
+}
+
+.contact-sede-b > h2, .contact-sede-a > h2
+{
+    text-align: center;
+}
+
+.contact-map-sede-a, .contact-map-sede-b
+{
+    margin: 2rem 0;
+}
+
+/* TEAM */
+
+.team-people img
+{
+    width: 10rem;
 }
