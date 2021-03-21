@@ -15,8 +15,29 @@ body {
 }
 html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     scroll-behavior: smooth;
+}
+h1
+{
+    font-size: 4rem;
+    font-weight: 700;
+}
+h2
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+h3
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+p, a, span
+{
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 header {
     color: white;   
@@ -49,9 +70,8 @@ header .nav-logo {
     margin: 0 auto;
 }
 header .nav-logo-words {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 1.5rem;
-    letter-spacing: 15px;
+    letter-spacing: 1rem;
     font-size: 2.5rem;
     cursor: pointer;
 }
@@ -101,12 +121,10 @@ footer .footer-container h3 {
     margin: 0 .5rem;
     color: white;
     border-bottom: var(--secundary-color) .15rem solid;
-    font-size: 2rem;
 }
 .footer p {
     margin: 1rem .5rem;
     color: rgb(182, 179, 179);
-    font-size: 1.6rem;
     text-align: justify;
 }
 .footer .footer-redes div {
@@ -145,7 +163,6 @@ footer .footer-container h3 {
     color: white;
     margin-top: 1rem;
     margin-left: 2rem;
-    font-size: 1.6rem;
 }
 .footer > div {
     margin-top: .5rem;
@@ -178,12 +195,12 @@ justify-content: space-evenly; media:tablet o desktop */
     flex-direction: column-reverse;
 }
 
-.about-container-text-1 h1, .about-container-text-2 h1
+/* .about-container-text-1 h1, .about-container-text-2 h1
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-}
+} */
 
 .about-container-text-1 p, .about-container-text-2 p
 {
@@ -264,4 +281,5 @@ justify-content: space-evenly; media:tablet o desktop */
 .team-people img
 {
     width: 80%;
+    border-radius: 5rem;
 }
