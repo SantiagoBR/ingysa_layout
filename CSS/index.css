@@ -34,9 +34,14 @@ h3
     font-size: 2.5rem;
     font-weight: 700;
 }
-p, a, span
+p, a, span, li
 {
     font-size: 1.8rem;
+    font-weight: 400;
+}
+small
+{
+    font-size: 1.2rem;
     font-weight: 400;
 }
 header {
@@ -195,17 +200,8 @@ justify-content: space-evenly; media:tablet o desktop */
     flex-direction: column-reverse;
 }
 
-/* .about-container-text-1 h1, .about-container-text-2 h1
-{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-} */
-
 .about-container-text-1 p, .about-container-text-2 p
 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
     text-align: justify;
 }
 
@@ -240,7 +236,8 @@ justify-content: space-evenly; media:tablet o desktop */
 .contact-sede-b > ul, .contact-sede-a > ul
 {
     list-style: none;
-    text-align: center;
+    text-align: justify;
+    margin: 1rem 0;
 }
 
 .contact-sede-b > h2, .contact-sede-a > h2

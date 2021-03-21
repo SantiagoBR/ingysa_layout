@@ -10,3 +10,10 @@
     display: inline-block;
     width: 50%;
 }
+
+/* ---------------------- *//* CSS del Index_tablet.css *//* ---------------------- */
+
+.contact-sede-b > ul, .contact-sede-a > ul
+{
+    text-align: center;
+}
